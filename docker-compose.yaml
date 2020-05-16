@@ -1,0 +1,8 @@
+version: '3.3'
+
+services: 
+  data-app:
+    build: .
+    container_name: data-app
+    ports: 
+      - "80:80"
